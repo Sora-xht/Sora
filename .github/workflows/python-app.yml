@@ -18,4 +18,4 @@ jobs:
         pip install pytest-playwright
     - name: Test with pytest
       run: |
-        pytest  # 运行所有测试
+        python -m pytest
